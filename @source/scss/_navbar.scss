@@ -1,0 +1,22 @@
+button:focus {
+    outline: 5px auto blue;
+}
+nav ul {
+    text-align: center;
+}
+
+nav li {
+    font-size: 1.4rem;
+    
+}
+
+
+@media (max-width: 350px) {
+    .navbar-brand {
+      display: none;
+    }
+    nav button {
+        margin: auto;
+    }
+
+  }
