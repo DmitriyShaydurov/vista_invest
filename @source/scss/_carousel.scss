@@ -35,6 +35,14 @@ body {
     min-width: 100%;
     height: 32rem;
   }
+
+  @media (min-width: 1900px) {
+    picture img {
+        width:100%;
+    }
+
+  }
+  
   
   
   /* MARKETING CONTENT

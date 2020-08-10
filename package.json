@@ -1,13 +1,14 @@
 {
-  "name": "gulp_bootstrap_boiler_plate",
+  "name": "vista",
   "version": "1.0.0",
-  "description": "Gulp Bootstrap boiler plate",
+  "description": "Vista-invest website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Dmitriy Shaydurov",
   "license": "MIT",
+  "homepage": "https://DmitriyShaydurov.github.io/vista_invest",
   "devDependencies": {
     "bootstrap": "^4.5.1",
     "browser-sync": "^2.26.12",
