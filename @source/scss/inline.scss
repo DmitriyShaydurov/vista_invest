@@ -13,7 +13,13 @@
 @import "node_modules/bootstrap/scss/carousel";
 @import "node_modules/bootstrap/scss/buttons.scss";
 
-// @import "node_modules/bootstrap/scss/bootstrap";
-
 @import "@source/scss/_carousel.scss";
 @import "@source/scss/_navbar.scss";
+@import "node_modules/bootstrap/scss/card";
+
+body {
+    padding-bottom: 0;
+}
+main p {
+    font-size: 1.4rem;
+}

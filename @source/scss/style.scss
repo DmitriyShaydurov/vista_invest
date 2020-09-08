@@ -1,20 +1,16 @@
-
-// Custom.scss here
-
-// Option A: Include all of Bootstrap
-
-// @import "node_modules/bootstrap/scss/bootstrap";
-
-// Option B: Include parts of Bootstrap
-
-// Required
-// @import "node_modules/bootstrap/scss/functions";
-// @import "node_modules/bootstrap/scss/variables";
-// @import "node_modules/bootstrap/scss/mixins";
-
-// Optional
-// @import "node_modules/bootstrap/scss/reboot";
-// @import "node_modules/bootstrap/scss/type";
-// @import "node_modules/bootstrap/scss/images";
-// @import "node_modules/bootstrap/scss/code";
-// @import "node_modules/bootstrap/scss/grid";
+.footer {
+    background:  #0071BC;
+    height: 7rem;
+    color: white;
+}
+.footer-black {
+    background:  #3C3C3C;;
+    height: 2.4rem;
+    color: white;
+    p {
+        font-size: 1rem;
+    }
+}
+.btn {
+    height: 3rem;
+}
