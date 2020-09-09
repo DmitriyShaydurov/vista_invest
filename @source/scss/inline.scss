@@ -15,7 +15,12 @@
 
 @import "@source/scss/_carousel.scss";
 @import "@source/scss/_navbar.scss";
+
+// for separate pages 
 @import "node_modules/bootstrap/scss/card";
+@import "node_modules/bootstrap/scss/forms";
+
+
 
 body {
     padding-bottom: 0;
