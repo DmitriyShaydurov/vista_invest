@@ -28,9 +28,9 @@ const path = {
 };
 
 const jsSourceFiles = [
-    'node_modules/jquery/dist/jquery.slim.js',
+    'node_modules/jquery/dist/jquery.js',
     'node_modules/bootstrap/dist/js/bootstrap.bundle.js',
-    'node_modules/bootstrap/dist/js/bootstrap.js',
+    // 'node_modules/bootstrap/dist/js/bootstrap.js',
     path.src.js
     ];
 
@@ -166,7 +166,7 @@ function removeUnusedCss() {
 
 
 let build = series(clean, parallel(css, html, scripts, images));
-let production = series(removeUnusedCss, inlineCss);
+let production = series(inlineCss, removeUnusedCss);
 
 
 exports.build = build;
