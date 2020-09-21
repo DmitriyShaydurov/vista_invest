@@ -29,3 +29,51 @@
 .contact-msg {
     max-width: 50%;
 }
+
+.map-background {
+    // background-image: url("../img/vista_invest_contact_map2.png");
+    // opacity: 0.3;
+    // background-color: #cccccc;
+    // height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    // background-size: cover;
+    position: relative;
+}
+
+.map-background::after {
+    content: "";
+    background: url(../img/vista_invest_contact_map2.png);
+    opacity: 0.07;
+    // margin: auto;
+    top: 0;
+    left: 0x;
+    bottom: 0;
+    right: auto;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100%;
+    // background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+#accordionExample {
+    width: 60vw;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.location-header {
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.accordion-btn {
+    font-size: 2rem;
+}
+
+.carousel-item {
+    height: auto;
+}

@@ -1,4 +1,4 @@
-<header>
+
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
       <a class="navbar-brand" href="#">
         <img src="img/vista_invest_logo.png"  class="d-inline-block align-top" alt="vista-invest">
@@ -9,21 +9,32 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="https://dmitriyshaydurov.github.io/vista_invest/">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="@@include('domain.html')">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Locations
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="@@include('domain.html')/phuket.html">LONDON & UK </a>
+              <a class="dropdown-item" href="@@include('domain.html')/phuket.html">PHUKET & THAILAND</a>
+              <a class="dropdown-item" href="@@include('domain.html')/phuket.html">CANBERRA & AUSTRALIA</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="@@include('domain.html')/products.html">Locations</a>
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://dmitriyshaydurov.github.io/vista_invest/products">Products</a>
+            <a class="nav-link" href="@@include('domain.html')">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About us</a>
+            <a class="nav-link" href="@@include('domain.html')">News</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">News</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://dmitriyshaydurov.github.io/vista_invest/contact">Contact</a>
+            <a class="nav-link" href="  @@include('domain.html')/contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
+
+    
   </header>
