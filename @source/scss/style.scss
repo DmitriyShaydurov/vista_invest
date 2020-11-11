@@ -1,4 +1,7 @@
 .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background:  #0071BC;
     height: 7rem;
     color: white;
@@ -11,6 +14,12 @@
         font-size: 1rem;
     }
 }
+
+.footer-black-mobile {
+    display: none;
+}
+
+
 .btn {
     height: 3rem;
 }
@@ -66,8 +75,9 @@
 }
 .location-header {
     margin-top: 2rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
+    color:#0071bc;
 }
 
 .accordion-btn {
@@ -77,3 +87,82 @@
 .carousel-item {
     height: auto;
 }
+
+.sd-card {
+    max-width: 700px;
+}
+
+.about-us-info {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    width: 50%;
+}
+
+
+
+@media (max-width: 576px) {
+    .card {
+        width: 90vw;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .contact-msg {
+        max-width: 90%;
+    }
+
+    .contact-form {
+        max-width: 90%;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: 11rem;
+    }
+    .social-btn {
+        margin-top: 0.75rem;
+    }
+
+    .footer-black {
+        display: none!important;
+    }
+
+    .footer-black-mobile {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 1rem;
+        background:  #3C3C3C;;
+        
+        color: white;
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    .sd-row {
+        flex-direction: column!important;
+        align-items: center;
+      }
+
+      #accordionExample {
+        width: 96vw;
+      }
+
+      .hero-img h1 {
+          text-align: center;
+      }
+
+      .location-header {
+        font-size:  2rem;
+        margin-bottom: 0;
+      }
+
+
+
+  }
+  

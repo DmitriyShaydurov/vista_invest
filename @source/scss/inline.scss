@@ -33,13 +33,18 @@ main p {
 
 .hero-img-th {
     background-image: url(../img/vista-invest-2.png);
+    min-height: 65vh;
+}
+
+.hero-img-bio {
+    background-image: url(../img/vista_invest_img11.jpg);
+    min-height: 90vh;
 }
 
 .hero-img {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 65vh;
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -50,4 +55,30 @@ main p {
         font-size: 3rem;
         color: white;
     }
+}
+
+.biografy {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    h1 {
+
+    }
+    div {
+        width: 60vw;
+        padding-left: 3rem;
+        color:white;
+        p {
+            font-size: 1.4rem;
+            line-height: 1.5rem;
+            margin-top: 0;
+            margin-bottom: 0.7em;
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .hero-img-bio {
+        background-image: url(../img/vista_invest_img12.jpg)
+    }
+
 }
